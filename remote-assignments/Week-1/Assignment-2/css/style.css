@@ -65,15 +65,16 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 15px;
+    margin: 15px 60px;
     column-gap: 15px;
 }
 
 .box1, .box2, .box3, .box4 {
     height: 120px;
-    width: 500px;
+    width: 100%;
     background-color: lightgrey;
     text-align: center;
+    
 }
 
 /* ---- button ---- */
@@ -102,11 +103,26 @@ button:hover {
     }
 
     .container1, .container2 {
-        flex-direction: column;
-        align-items: center; 
-        margin-bottom: 0px;   
+        flex-direction: column; 
+        margin: 0px 60px;   
     }
     .box1, .box2, .box3, .box4 {
         margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container1, .container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 60px;
+    column-gap: 15px;
+        
+    }
+    .box1, .box2, .box3, .box4 {
+       height: 120px;
+       width: 532px;
     }
 }
