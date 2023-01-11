@@ -10,7 +10,7 @@ let counterB = 0;
             counterB++;
         }
     }    
-    return input1 = `${counterA + counterB} ("${counterA} 'a' letters and ${counterB} 'b' letters)`   
+    return input1 = `${counterA + counterB} (${counterA} 'a' letters and ${counterB} 'b' letters)`   
 }
 
 function toNumber (input1) {
@@ -46,7 +46,7 @@ function countAandB (input2) {
                 counterB++;
             }
         }    
-        return input2 = `${counterA + counterB} ("${counterA} 'a' letters and ${counterB} 'b' letters)`   
+        return input2 = `${counterA + counterB} (${counterA} 'a' letters and ${counterB} 'b' letters)`   
     }
         
 function toNumber (input2) {
